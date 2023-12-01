@@ -24,7 +24,7 @@ function Products() {
     <>
       <div className="data-container">
         <div className="heading">
-          <p style={{ fontWeight: "bold" }}>User Id</p>
+          <p style={{ fontWeight: "bold" }}>Id</p>
           <p style={{ fontWeight: "bold" }}>Title</p>
           <p style={{ fontWeight: "bold" }}>Body</p>
         </div>
