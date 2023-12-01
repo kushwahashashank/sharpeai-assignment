@@ -1,0 +1,28 @@
+.data-container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  background-color: #fef7e5;
+  padding-top: 60px;
+  flex-direction: column;
+  align-items: center;
+  overflow: scroll;
+  padding-bottom: 2rem;
+}
+.heading {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  padding-top: 2rem;
+}
+.heading p {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  padding: 0.8rem;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  /* overflow: scroll; */
+}
