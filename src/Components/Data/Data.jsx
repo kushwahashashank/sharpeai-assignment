@@ -6,7 +6,7 @@ function Products() {
   const [data, setData] = useState([]);
   // Function for fetching data from API
   const fetchData = async() => {
-    return await fetch("https:/jsonplaceholder.typicode.com/posts")
+    return await fetch("https://jsonplaceholder.typicode.com/posts")
       .then((e) => e.json())
       .then((res) => {
         // Filtering the data we get for userId to be only 1
